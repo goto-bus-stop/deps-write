@@ -1,7 +1,7 @@
 {
   "name": "deps-write",
   "description": "write modules from a module-deps stream to the filesystem instead of bundling",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
     "url": "https://github.com/goto-bus-stop/deps-write/issues"
