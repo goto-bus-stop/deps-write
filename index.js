@@ -6,7 +6,7 @@ var fs = require('fs')
 
 module.exports = function (opts) {
   if (!opts) opts = {}
-  assert.equal(typeof opts.dir, 'string', 'deps-write: opts.dir must be a file path')
+  assert.strictEqual(typeof opts.dir, 'string', 'deps-write: opts.dir must be a file path')
   var madeDirs = Object.create(null)
 
   return sink(onrow)

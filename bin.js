@@ -13,5 +13,5 @@ if (!dirname) {
 argv.dir = dirname
 
 process.stdin
-  .pipe(json.parse([ true ]))
+  .pipe(json.parse([true]))
   .pipe(write(argv))
