@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var JSONStream = require('JSONStream')
+var json = require('jsonstream2')
 var argv = require('minimist')(process.argv.slice(2))
 var write = require('.')
 
@@ -13,5 +13,5 @@ if (!dirname) {
 argv.dir = dirname
 
 process.stdin
-  .pipe(JSONStream.parse([ true ]))
+  .pipe(json.parse([ true ]))
   .pipe(write(argv))

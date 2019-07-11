@@ -7,11 +7,11 @@
     "url": "https://github.com/goto-bus-stop/deps-write/issues"
   },
   "devDependencies": {
-    "module-deps": "^6.1.0",
-    "read-file-tree": "^1.1.0",
+    "module-deps": "^6.2.1",
+    "read-file-tree": "^1.1.1",
     "standard": "^11.0.0",
     "tap-spec": "^5.0.0",
-    "tape": "^4.0.0",
+    "tape": "^4.11.0",
     "tmp": "0.0.33"
   },
   "homepage": "https://github.com/goto-bus-stop/deps-write",
@@ -35,7 +35,7 @@
     "test": "standard && node test | tap-spec"
   },
   "dependencies": {
-    "JSONStream": "^1.3.3",
+    "jsonstream2": "^2.0.1",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "to2": "^1.0.0"
