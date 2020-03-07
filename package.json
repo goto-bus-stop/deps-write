@@ -35,7 +35,7 @@
     "test": "standard && node test | tap-spec"
   },
   "dependencies": {
-    "jsonstream2": "^2.0.1",
+    "jsonstream2": "^3.0.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "to2": "^1.0.0"
