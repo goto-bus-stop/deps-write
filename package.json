@@ -11,7 +11,7 @@
     "read-file-tree": "^1.1.1",
     "standard": "^14.3.3",
     "tap-spec": "^5.0.0",
-    "tape": "^4.11.0",
+    "tape": "^5.0.0",
     "tmp": "0.0.33"
   },
   "homepage": "https://github.com/goto-bus-stop/deps-write",
