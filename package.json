@@ -35,6 +35,7 @@
     "test": "standard && node test | tap-spec"
   },
   "dependencies": {
+    "filenamify": "^4.1.0",
     "jsonstream2": "^3.0.0",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",

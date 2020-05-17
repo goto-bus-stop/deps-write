@@ -1,4 +1,5 @@
 var assert = require('assert')
+var filenamify = require('filenamify')
 var mkdirp = require('mkdirp')
 var sink = require('to2').obj
 var path = require('path')
@@ -17,7 +18,7 @@ module.exports = function (opts) {
     if (sourceFile && opts.root) {
       sourceFile = path.relative(opts.root, sourceFile)
     }
-    var basename = appendJS(sourceFile || row.id)
+    var basename = appendJS(filenamify(sourceFile || String(row.id)))
     var filename = path.join(opts.dir, basename)
 
     if (/^\.\.\//.test(path.relative(opts.dir, filename))) {
