@@ -9,7 +9,7 @@
   "devDependencies": {
     "module-deps": "^6.2.1",
     "read-file-tree": "^1.1.1",
-    "standard": "^14.3.3",
+    "standard": "^16.0.1",
     "tap-spec": "^5.0.0",
     "tape": "^5.0.1",
     "tmp": "0.0.33"
