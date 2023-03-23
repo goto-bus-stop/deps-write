@@ -38,7 +38,7 @@
     "filenamify": "^4.1.0",
     "jsonstream2": "^3.0.0",
     "minimist": "^1.2.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^2.1.6",
     "to2": "^1.0.0"
   }
 }
